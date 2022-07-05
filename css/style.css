@@ -41,15 +41,17 @@ section {
 .donate {
   text-align: center;
 }
-.donate-title {
+.title {
   font-size: 35px;
   margin-bottom: 18px;
   font-family: "Inter", sans-serif;
 }
-.donate-text {
+.donate-text,
+.about-text {
   max-width: 690px;
   margin: 0 auto;
   margin-bottom: 20px;
+  color: #707070;
 }
 .card-container {
   margin-top: 80px;
@@ -86,25 +88,24 @@ input {
 .donate-plan {
   text-align: center;
 }
-.donate-plan-text {
-  width: 710px;
-  margin: 0 auto;
-}
 .donate-cards {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 40px auto;
   border-radius: 5px;
   gap: 16px;
 }
 .donate-card-item {
-  padding: 50px 20px;
+  padding: 50px 25px;
   background-color: aquamarine;
   border-radius: 5px;
   cursor: pointer;
+}
+.donate-card-text {
+  color: #707070;
 }
 #food-bg {
   background-color: rgba(31%, 61.6%, 65.1%, 0.2);
@@ -114,6 +115,26 @@ input {
 }
 #edu-bg {
   background-color: #fff4d6;
+}
+/* About Section */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.about-left {
+  width: 47%;
+  margin-right: 48px;
+}
+.about-right {
+  width: 47%;
+  padding-right: 5px;
+}
+.about-left img {
+  width: 100%;
+  border-radius: 5px;
 }
 /* Footer Design */
 footer {
