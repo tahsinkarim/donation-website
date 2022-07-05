@@ -6,6 +6,7 @@ body {
 section {
   margin-bottom: 150px;
 }
+
 /* Banner Design */
 .banner {
   background-image: linear-gradient(to top, #121212, transparent),
@@ -37,6 +38,7 @@ section {
   padding: 10px 15px;
   border-radius: 5px;
 }
+
 /* Donate Section */
 .donate {
   text-align: center;
@@ -47,7 +49,8 @@ section {
   font-family: "Inter", sans-serif;
 }
 .donate-text,
-.about-text {
+.about-text,
+.contact-text {
   max-width: 690px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -75,7 +78,7 @@ section {
 .input-container {
   margin-bottom: 32px;
 }
-input {
+.donate-input {
   margin-top: 100px;
   border: none;
   border-bottom: 1px solid #dadada;
@@ -84,9 +87,12 @@ input {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 /* Donate-Plan Section */
 .donate-plan {
   text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .donate-cards {
   display: flex;
@@ -116,6 +122,7 @@ input {
 #edu-bg {
   background-color: #fff4d6;
 }
+
 /* About Section */
 .about-container {
   display: flex;
@@ -123,6 +130,8 @@ input {
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .about-left {
   width: 47%;
@@ -136,6 +145,31 @@ input {
   width: 100%;
   border-radius: 5px;
 }
+
+/* Contact Section */
+.contact-container {
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.email-container {
+  padding: 80px 60px;
+  background-color: #fff4d6;
+  width: 690px;
+  margin: 50px auto;
+}
+.email-input {
+  color: #aa9f9f;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 0;
+  border: 1px solid #d9d9d9;
+}
+
 /* Footer Design */
 footer {
   text-align: center;
