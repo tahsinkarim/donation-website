@@ -4,7 +4,7 @@ body {
   /* font-family: 'Inter', sans-serif; */
 }
 section {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 /* Banner Design */
 .banner {
@@ -104,6 +104,7 @@ input {
   padding: 50px 20px;
   background-color: aquamarine;
   border-radius: 5px;
+  cursor: pointer;
 }
 #food-bg {
   background-color: rgba(31%, 61.6%, 65.1%, 0.2);
@@ -124,4 +125,6 @@ footer {
 }
 .footer-title {
   color: #ff5959;
+  font-family: "Lobster", cursive;
+  font-size: 36px;
 }
