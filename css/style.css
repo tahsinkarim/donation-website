@@ -157,17 +157,28 @@ section {
   background-color: #fff4d6;
   width: 690px;
   margin: 50px auto;
+  display: flex;
+  justify-content: center;
 }
 .email-input {
   color: #aa9f9f;
   background-color: #d9d9d9;
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
   padding: 12px;
+  padding-right: 100px;
   border: none;
   font-size: 16px;
   font-weight: bold;
   margin-right: 0;
   border: 1px solid #d9d9d9;
+}
+.email-button {
+  text-decoration: none;
+  padding: 12px;
+  color: #fafafa;
+  background-color: #ff5959;
+  border-radius: 0 5px 5px 0;
+  fon
 }
 
 /* Footer Design */
