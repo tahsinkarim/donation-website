@@ -97,7 +97,6 @@ section {
 .donate-cards {
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: left;
   max-width: 1100px;
   margin: 40px auto;
